@@ -1,0 +1,57 @@
+body{
+    font-family: 'EB Garamond', serif;
+    /* font-family: 'Poppins', sans-serif; */
+   
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+}
+.consultation{
+    background-color: #B68C5A;
+}
+
+/* banner section */
+.banner{
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+.effective-solutioin{
+ margin-top : 200px;
+    margin-left: 250px;
+}
+.serch-bar{
+    margin-left: 450px;
+}
+/* legal practice section */
+.Legal:hover{
+    background-color: rgb(201, 200, 200);
+}
+
+        
+        /* footer */
+        .email{
+            background-color: #B68C5A;
+            color: white;
+            height: 39px;
+            width: 60px;
+            text-align: center;
+            padding: 13px;
+           margin-left: 13px;
+           margin-top: -39px;
+           border-radius: 5px;
+           
+           
+        }
+        @media only screen and ( max-Width: 576px ) {
+            .banner{
+                        height: 300px;
+                        width: 100%;
+            }
+            .banner-text{
+                position: relative;
+            }
+             .email{
+                margin-left: 42px;
+            }
+        }
